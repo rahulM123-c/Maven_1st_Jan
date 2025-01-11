@@ -10,6 +10,7 @@ public class TestNGMethods {
 
     public static WebDriver driver;
 
+
         @BeforeMethod
         public void PreRequisite() {
             driver = new ChromeDriver();
