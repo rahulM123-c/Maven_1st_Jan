@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="cityName" value="Indore"></parameter>
+    <parameter name="courseName" value="Deigital Marketing"></parameter>
+
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="2" name="C:/Users/91898/IdeaProjects/Maven_1st_Jan">
+        <classes>
+
+            <class name="TestNGClasses.Parameterization.NeedOfParameterization"/>
+
+
+
+
+
+        </classes>
+    </test>
+</suite>
