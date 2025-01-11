@@ -18,7 +18,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-/*public class DataProviderWithExcel {
+public class DataProviderWithExcel {
 
     @DataProvider(name = "test-data")
     public Object[][] dataFun() throws IOException {                              // return type is always in Array when we use @DataProvider before any method
@@ -65,4 +65,4 @@ import java.io.IOException;
         Thread.sleep(3000);
         driver.close();
     }
-}*/
+}

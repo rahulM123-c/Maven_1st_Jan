@@ -11,9 +11,8 @@ public class TestNGExample {
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
 
-    driver.get("https://www.abhibus.com/");
-    System.out.println("hello new world");
-
+    driver.get("https://www.flipkart.com/");
+    System.out.println("hello world");
     driver.close();
 }
 
@@ -22,10 +21,6 @@ public class TestNGExample {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.abhibus.com/");
-        System.out.println("kahbdh djsdjgq");
-        driver.close();
-
-
 
 
     }
