@@ -12,7 +12,7 @@ public class TestNGExample {
     driver.manage().window().maximize();
 
     driver.get("https://www.abhibus.com/");
-    System.out.println("hello new world");
+    System.out.println("Hello New World");
 
     driver.close();
 }
