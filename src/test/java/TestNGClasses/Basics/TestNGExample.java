@@ -22,7 +22,7 @@ public class TestNGExample {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.abhibus.com/");
-        System.out.println("kahbdh djsdjgq");
+        System.out.println("It's Friday");
         driver.close();
 
 
