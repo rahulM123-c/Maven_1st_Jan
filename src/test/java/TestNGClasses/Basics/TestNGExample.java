@@ -21,7 +21,7 @@ public class TestNGExample {
     public void testcase_2() {
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://www.abhibus.com/");
+        driver.get("https://www.google.com/");
         System.out.println("It's Friday");
         driver.close();
 
